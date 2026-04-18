@@ -10,7 +10,7 @@ This project builds a Whisper engine from scratch using OpenVINO, unlocking Inte
 
 ## Benchmark
 
-**Hardware:** Intel Arc GPU + Windows  
+**Hardware:** Intel Arc A750 GPU + Windows  
 **Model:** whisper-small  
 **Audio:** 25 seconds  
 **Runs:** 5 (averaged)
@@ -54,7 +54,7 @@ ov-whisper/
 
 **Requirements:**
 - Python 3.10
-- Intel Arc GPU with latest drivers from [intel.com](https://www.intel.com/content/www/us/en/download-center/home.html)
+- Intel GPU with latest drivers from [intel.com](https://www.intel.com/content/www/us/en/download-center/home.html)
 - Windows or Linux
 
 **Install:**
