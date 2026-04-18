@@ -1,0 +1,24 @@
+[project]
+name = "ov-whisper"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "faster-whisper>=1.2.1",
+    "ffmpeg-python>=0.2.0",
+    "librosa>=0.11.0",
+    "matplotlib>=3.10.8",
+    "ml-dtypes==0.4.0",
+    "onnx==1.16.1",
+    "onnxruntime==1.19.2",
+    "openai-whisper>=20250625",
+    "openvino==2024.3.0",
+    "optimum-intel>=1.15.0",
+    "optimum[openvino]>=1.17.1",
+    "pyaudio>=0.2.14",
+    "soundfile>=0.13.1",
+    "tiktoken>=0.12.0",
+    "transformers==4.41.1",
+    "webrtcvad-wheels>=2.0.14",
+]
